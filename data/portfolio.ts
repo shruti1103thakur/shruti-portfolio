@@ -121,6 +121,7 @@ export type Project = {
   number: string;
   name: string;
 category: string;
+
   url: string;
   description: string;
   stack: string[];

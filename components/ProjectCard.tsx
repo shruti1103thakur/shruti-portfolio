@@ -40,7 +40,7 @@ export default function ProjectCard({
             </div>
             <div className="flex-1 flex items-center justify-center gap-1.5 bg-bg/60 rounded-sm px-2.5 py-1 min-w-0">
               <div className="relative w-3.5 h-3.5 shrink-0">
-                <Image
+                {/* <Image
                   src={project.logo}
                   alt=""
                   fill
@@ -49,7 +49,7 @@ export default function ProjectCard({
                   onError={(e) => {
                     (e.target as HTMLImageElement).style.display = "none";
                   }}
-                />
+                /> */}
               </div>
               <span className="text-[9px] text-ink-muted/70 truncate">
                 {project.url.replace(/^https?:\/\//, "").replace(/\/$/, "")}
