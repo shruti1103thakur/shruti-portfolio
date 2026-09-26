@@ -115,20 +115,12 @@ export const skills: SkillCategory[] = [
   },
 ];
 
-export type Project = {
-  number: string;
-  name: string;
-  url: string;
-  description: string;
-  stack: string[];
-  image: string;
-  size: "large" | "small";
-};
+
 
 export type Project = {
   number: string;
   name: string;
-  category: string;
+category: string;
   url: string;
   description: string;
   stack: string[];
