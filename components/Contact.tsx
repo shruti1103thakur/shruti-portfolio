@@ -105,7 +105,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} noValidate className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-xs tracking-[0.2em] uppercase text-ink-muted mb-2.5">
-                  FullName
+                  Name
                 </label>
                 <input
                   id="name"
